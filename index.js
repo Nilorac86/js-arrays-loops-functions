@@ -71,7 +71,7 @@
 
 // console.log(cities);
 
-let count = 0;
+/* let count = 0;
 
 do  {
     count++;
@@ -80,4 +80,39 @@ do  {
    
 
 
-console.log(`the count is now ${count} after it will be canceled`);
+console.log(`the count is now ${count} after it will be canceled`); */
+
+/* const numbers = [5,2.10,15,27,99];
+
+for (let i = 0;  i < numbers.length ; i++) {
+    console.log(numbers[i]);
+} */
+
+/* const cars= ["Volvo", "Saab" , "Nissan", "Skoda"];
+
+for (const car of cars){
+    console.log(car);
+} */
+
+
+// function greeting (){
+//     console.log("Hello there!");
+// }
+
+// function greetWithName (name){
+//     console.log("Hello " + name + "!");
+
+//     console.log(`Hello ${name}!`);
+// }
+
+// function addTwoNumbers(num1, num2){
+//     const result = num1 * num2;
+//     console.log(`The result is ${result}`);
+// }
+
+function divide (num1,num2){
+    const result =  num1 / num2;
+    return result;
+}
+
+const result = divide (10,2);
